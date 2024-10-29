@@ -79,8 +79,6 @@ result_high_pass,r2 = filtering(freq_dm,bandPass,gray_image)
 nameOfFilter = 'ideal'
 
 
-
-
 plt.figure(figsize=(12, 8))
 plt.subplot(421),plt.imshow(img, cmap = 'gray')
 plt.title('Input Image'), plt.xticks([]), plt.yticks([])
